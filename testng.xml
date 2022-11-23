@@ -1,0 +1,475 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--
+	<test name="AutoSAVE">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.AutoSavetest" />
+		</classes>
+	</test>-->
+	
+	<test name="LoginPage">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.WelcomeLoginAndHomePage.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="Home page">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.WelcomeLoginAndHomePage.VerifyHomePageTest" />
+		</classes>
+	</test>
+	<test name="Welcome page">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.WelcomeLoginAndHomePage.WelcomePageTest" />
+		</classes>
+	</test>
+	<test name="ProjectHomePage">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.WelcomeLoginAndHomePage.ProjectHomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="AdvisorHomepage">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.WelcomeLoginAndHomePage.AdvisorHomePageTest" />
+		</classes>
+	</test>
+	 <test name="AdminFreeAndGuidedSearchTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.KnowledegeCenter.FreeTextSearchTest" />
+		</classes>
+	</test>
+	<test name="FieldFreeTextSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.KnowledegeCenter.FieldServiceFreeTextSearchTest" />
+		</classes>
+	</test>
+	<!-- <test name="SolutionResultPage">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.WelcomeLoginAndHomePage.SolutionSortFunctionalityTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="GuidedSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.KnowledegeCenter.GuidedSearchTest" />
+		</classes>
+	</test>
+	<test name="ExpertSearchTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.ExpertSearch.SolutionIDTest" />
+		</classes>
+	</test>
+	<test name="ExpertSearchInProductTab">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.ExpertSearch.ProductTabTest" />
+		</classes>
+	</test>
+	<test name="ExpertSearchInProbelmAndDiagnosticTab">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.ExpertSearch.ProblemRequestTabTest" />
+		</classes>
+	</test>
+	<test name="ExpertSearchInSolutionAdminTab">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.ExpertSearch.SolutionAdminTabTest" />
+		</classes>
+	</test> -->
+
+	<!-- ===================== Service Sessions ================================== -->
+
+	<test name="DS">
+		<groups>
+			<run>
+				<include name="60" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.DsDashboard.SessionSearchTest" />
+		</classes>
+	</test>
+	<test name="ServiceSession">
+		<groups>
+			<run>
+				<include name="60" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.DsDashboard.ServiceSessionTest" />
+		</classes>
+	</test>
+	<test name="ServiceSessionVerificationAndResolution">
+		<groups>
+			<run>
+				<include name="60" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.DsDashboard.VerificationAndResolutionInDSTest" />
+		</classes>
+	</test>
+
+	<!-- ===================== New 60 Features ================================== -->
+
+	<test name="New 60 Features">
+		<groups><run><include name="60" /></run></groups>
+		<classes><class name="com.ptc.skd.advisor.New60Features" /></classes>
+	</test>
+
+	<!-- ===================== JIRA           ================================== -->
+
+	<test name="KAI13700">
+		<groups><run><include name="regression" /></run></groups>
+		<classes><class name="com.ptc.skd.advisor.jira.KAI13700" /></classes>
+	</test>
+
+	<!-- =====================                   ================================== -->
+
+
+	<!-- <test name="SolutionTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.SolutionTab.SolutionsTest" />
+		</classes>
+	</test>
+	<test name="ServiceSessionWorklist">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.fieldservice.SessionWorklist.ServiceSessionWorklistTest" />
+		</classes>
+	</test>
+	<test name="ServiceSessionWorklist1">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.fieldservice.SessionWorklist.DSTest" />
+		</classes>
+	</test>
+	<test name="ServiceSessionWorklist2">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.fieldservice.SessionWorklist.VerificationAndResolutionTest" />
+		</classes>
+	</test>
+	<test name="FieldServiceSolutionSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.fieldservice.SearchSession.SolutionSearchTest" />
+		</classes>
+	</test>
+	<test name="MyWorkGroup">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.fieldservice.SessionWorklist.MyWorkgroupTest" />
+		</classes>
+	</test>
+	<test name="SpellCheck">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.SpellCheckTest" />
+		</classes>
+	</test>
+	<test name="AuthoringExpandAndCollapse">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.callcenter.authoring.ExpendAndCollapseTest" />
+		</classes>
+	</test>
+	<test name="RepairHistory">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.ptc.skd.advisor.fieldservice.RepairHistory.RepairHistoryTest" />
+		</classes>
+	</test>
+	<test name="MultipleTabAuthoring">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.MultipleTabTest" />
+		</classes>
+	</test>
+	<test name="CaseManagement">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.CaseManagementTest" />
+		</classes>
+	</test>
+	<test name="CkEditorTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.CkEditorTest" />
+		</classes>
+	</test>
+	<test name="CkEditorTest1">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.advisor.callcenter.authoring.CkEditorTest1" />
+		</classes>
+	</test>
+	<test name="SeesionSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SystemSearchReportTest" />
+		</classes>
+	</test>
+	<test name="SessionSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SystemSessionReportTest" />
+		</classes>
+	</test>
+	<test name="SolutionFeedback">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SolutionFeedbackReportTest" />
+		</classes>
+	</test>
+	<test name="SolutionQuality">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SolutionQualityReportTest" />
+		</classes>
+	</test>
+	<test name="SolutionSimilarties">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SolutionSimilartiesReportTest" />
+		</classes>
+	</test>
+	<test name="AuthoringActivity">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.AuthoringActivityReportTest" />
+		</classes>
+	</test>
+	<test name="UserActivity">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.UserActivityReportTest" />
+		</classes>
+	</test>
+	<test name="EscalationSearch">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.EscalationSearchReportTest" />
+		</classes>
+	</test>
+	<test name="ServiceSessionActivity">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.ServiceSessionActivityReportTest" />
+		</classes>
+	</test>
+	<test name="FreeTextSearchAnalysisReportTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.FreeTextSearchAnalysisReportTest" />
+		</classes>
+	</test>
+	<test name="DomainModelAnalysisReportTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.DomainModelAnalysisReportTest" />
+		</classes>
+	</test>
+	<test name="SearchSuccessAnalysisReport">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.SearchSuccessAnalysisReportTest" />
+		</classes>
+	</test>
+	<test name="BrokenLinkAnalysisReportTest">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ptc.skd.analytic.BrokenLinkAnalysisReportTest" />
+		</classes>
+	</test> -->
+</suite>
+ <!-- Suite -->

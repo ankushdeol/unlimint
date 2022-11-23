@@ -1,0 +1,16 @@
+# Ignore Gradle project-specific cache and build directories
+.gradle/
+bin/
+
+# Ignore eclipse directories
+.setting/
+build/
+
+# Ignore vscode directories
+.settings/
+.vscode/
+
+# Ignore test output directory
+test-output/
+
+PropertyFile.properties

@@ -1,0 +1,41 @@
+# SKD URL
+SKD_URL=http://andcsv-svgkm10d:9060/
+
+# jdk11 location in linux format (don't escape spaces) (for use in run.sh)
+jdk11=/c/Program Files/Java/jdk-11.0.8
+
+# admin login info
+username=admin
+password=kaidara
+
+# fieldservice login info
+fieldusername=fieldservice
+fieldpassword=kaidara
+
+Browser=chrome
+chromeDriverProperty=webdriver.chrome.driver
+chromeDriverPath=E:/chrome/chromedriver.exe
+
+# Browser=firefox
+# firefoxDriverProperty=webdriver.gecko.driver
+# firefoxDriverPath=E:/chrome/geckodriver.exe
+
+# mode
+mode=desktop
+#mode=mobile
+
+# debug mode - when active, the browser will be left open on failure
+#              also the slowDown method will be available
+debug=false
+
+# test script parameters
+titleValue=new 
+expertSearchSolutionNumber=K51603140
+expertSearchExpectedValue=ID : K51603140
+expertSearchSolutionCount=64 Solutions
+dsErrorMsg=The Service Session cannot be created or updated because "12345" is not a valid Serial Number. It should be of the format: "1234.1234"
+commentString=The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used.
+filePath=C:\\Report.png
+coreIssue=washer is not working
+invalidTitle=The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used. The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used. The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used. The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used. The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used. The PTC Servigistics Knowledge and Diagnostics Getting Started Guide is a document designed for users who are unfamiliar with PTC Servigistics Advisor , and the concepts and terminology used.
+invalidTitleErrorMsg=The maximum text size is 1024 characters.

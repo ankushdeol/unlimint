@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11/">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/e006ffd3aa7841e6e9125d9e6691b3a6b7592b05/selenium-api-3.141.59.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/67137314736c6a2f39a8aa59a562e9616ae5f77e/selenium-chrome-driver-3.141.59.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/b7189fcb53e45dcce1f02cf71bfd7d1a38883fed/selenium-chrome-driver-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/964bf41cf68bce08e4ef6b2279b559fdf8d454f4/poi-4.1.2.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/ac5af3832ebaef94562a39591a000338bbae0e4b/poi-4.1.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.141.59/a99f2fe2a42747ed9809d4f62f51a9e1b336dde8/selenium-firefox-driver-3.141.59.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.141.59/d45a67c085bf718f01c35b3a87a58518ccfcfc92/selenium-firefox-driver-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/1c79ca890c312ff9916bd95df4f0c5182ec722d8/selenium-remote-driver-3.141.59.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/8735de5049acf0e761defc65ee5837d6541abaf5/selenium-support-3.141.59.jar" sourcepath="D:/Gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/SKD-Automated-UI-Testing"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>
